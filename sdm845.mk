@@ -382,6 +382,7 @@ PRODUCT_PACKAGES += \
     libdisplayconfig.vendor \
     libnl \
     libaacwrapper \
+    libqdMetaData \
     libqdMetaData.system
 
 PRODUCT_BOOT_JARS += \
