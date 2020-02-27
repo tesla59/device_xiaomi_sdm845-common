@@ -131,7 +131,7 @@ PRODUCT_PACKAGES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiParts
+    Dirac
 
 # Display
 PRODUCT_PACKAGES += \
