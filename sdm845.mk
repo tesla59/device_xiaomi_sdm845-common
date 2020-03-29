@@ -161,9 +161,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_BOARD_PLATFORM := sdm845
 PRODUCT_USES_QCOM_HARDWARE := true
 
-# Firmware
-$(call inherit-product, vendor/xiaomi/beryllium/firmware/firmware.mk)
-
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-impl \
