@@ -169,7 +169,7 @@ PRODUCT_BOARD_PLATFORM := sdm845
 PRODUCT_USES_QCOM_HARDWARE := true
 
 # Firmware
-$(call inherit-product, vendor/xiaomi/beryllium/firmware/firmware.mk)
+$(call inherit-product-if-exist, vendor/xiaomi/beryllium/firmware/firmware.mk)
 
 # Health
 PRODUCT_PACKAGES += \
